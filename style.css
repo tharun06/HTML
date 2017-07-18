@@ -55,24 +55,26 @@ header {
 }
 
 #logo {
-    margin:20px;
+    margin:35px 0 0 60px;
     float: left;
-    width:200px;
-    height:60px;
+    width: 62px;
+    height:70px;
     background: url(img/RD.png) no-repeat center;
+    padding-left: 36px;   
 }
 
  
 nav {
     float:right;
-    padding: 25px 25px 0 0 ;
+    padding: 25px 0 0 0 ;
 }
 
 #menu-icon {
     display: none;
-    width:200px;
+    width:155px;
     height:60px;
     background: url(img/nav.png) no-repeat center;
+    float:right;
 }
 
 /*-- ENd of header --*/
@@ -120,6 +122,236 @@ nav ul li a:hover{
     background-color: chocolate;
 }
 
+#css{
+    background-color:beige ;
+}
+
+#ceo{
+    background-color: darkgray;
+}
+
+#search{
+    background-color: aliceblue;
+}
+
+.one-fourth i{
+    font-size:500%;
+    padding-top: 30px;
+    
+}
+
+.inner-wrapper{
+    float:left;
+    background-color: #7da0d8 ;
+}
+
+article{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+aside{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+#tablet{
+    background-color: aquamarine;
+}
+
+#tablet2{
+    background-color: #7da0d8;
+}
+
+.inner-wrapper1{
+    float:left;
+    background-color: #7da0d8;
+}
+
+article{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+aside{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+#mobile2{
+    background-color: aquamarine;
+}
+
+#mobile{
+    background-color: #7da0d8;
+}
+
+.inner-wrapper2{
+    float:left;
+    background-color: #7da0d8;
+}
+
+article{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+aside{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+}
+
+#desktop{
+    background-color: aquamarine;
+}
+
+#desktop2{
+    background-color: #7da0d8;
+}
+
+.inner-wrapper-3{
+    float: left;
+    background-color: beige;
+    width:100%;
+}
+
+.one-third{
+    width: 33.333333%;
+    float:left;
+    text-align: center;
+}
+
+#marketing{
+    background-color: coral;
+}
+
+#smiley{
+    background-color: aliceblue;
+}
+
+.social{
+    text-align: center;
+    float:left;
+    width:100%;
+    background-color: #2170ef;
+}
+
+footer ul li a {
+    width: 25%;
+    float: left;
+    font-size: 180px;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: aquamarine;
+}
+
+.second{
+    width:100%;
+    background-color: #625f5f;
+    text-align: center;
+    
+}
+
+.second p{
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Media querries are now stating */
+
+@media screen and (max-width:760px){
+    h1{
+        font-size:150%;
+    }
+    
+    h3{
+        font-size:125%;
+    }
+    
+    p{
+        font-size:120%;
+    }
+    
+    header{
+        position:absolute;
+    }
+    
+    #logo{
+        background: url(img/RD_mobile.png);
+        background-repeat: no-repeat;
+    }
+    
+    #menu-icon{
+        display: inline-block;
+    }
+    
+    nav ul ,nav:active ul {
+        display:none; 
+        z-index: 1000;
+        position:absolute;
+        padding:20px;
+        background-color: blue;
+        right:20px;
+        top:60px;
+        border:1px solid white;
+        border-radius: 20px 0 2px 2px;
+        width:50%;
+    } 
+
+
+    nav:hover ul{
+        display:block;
+    }
+
+    nav ul li {
+        width:100%;
+        text-align: center;
+    }
+    
+    .banner{
+        padding-top: 100px;
+    }
+    
+    .one-fourth{
+        width:100%;
+    }
+    
+    .one-fourth i {
+        font-size:300%;
+        width:100%;
+            
+    }
+
+    article{
+        width:100%
+    }    
+    
+    aside{
+        width:100%;
+    }
+    .one-third{
+        width:100%;
+    }
+    
+    .social i {
+        font-size:180%;
+    }
+    
+}
 
 
 
